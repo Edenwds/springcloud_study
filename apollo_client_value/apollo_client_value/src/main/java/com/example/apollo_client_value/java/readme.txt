@@ -1,0 +1,4 @@
+当有不同namespace，且其中有相同的key， 私有的namespace中的值会覆盖公有的，order顺序在此时不起作用，
+也就是低优先级的不会覆盖高优先级
+
+但当不同的namespace都是私有的，这时order值决定使用的值，低优先级namespace中会覆盖掉高优先级中相同key的值
